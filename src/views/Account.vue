@@ -12,7 +12,7 @@
 
         <CodeSnippetGroup>
           <CodeSnippet>
-            <h3 slot="header">Your Personal Token:</h3>
+            <h3 slot="header">Your Personal Token (Edited, recompiled):</h3>
             <code>{{ user.token }}</code>
           </CodeSnippet>
 
