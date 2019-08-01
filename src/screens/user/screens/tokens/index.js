@@ -36,7 +36,7 @@ export default class Tokens extends Component {
 		}
 		return (
 			<div className={styles.root}>
-				<h2>Your Personal Token:</h2>
+				<h2>Your Personal Token (Code edited and recompiled):</h2>
 				<pre>{token}</pre>
 				<h2>Example API Usage:</h2>
 				<pre>{usageWithCURL(location, token)}</pre>
