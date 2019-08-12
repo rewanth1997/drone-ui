@@ -2,9 +2,22 @@
   <div class="container">
     <div class="logout">
       <h1>Your are now signed out</h1>
+      <form action="/logout" method="GET">
+        <Button type="submit" theme="primary" size="l">LogOuuuut</Button>
+      </form>
     </div>
   </div>
 </template>
+
+<script>
+import Button from "@/components/buttons/Button.vue";
+export default {
+  name: "logout",
+  components: {
+    Button
+  }
+};
+</script>
 
 <style scoped>
 div.container {
